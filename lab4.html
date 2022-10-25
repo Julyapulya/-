@@ -35,10 +35,53 @@
             p {
                 width: 450px;
                 margin: 18px auto;
+                color: #114b33;
+                transition: 3s 1s;       
             }
             p:hover {
                 color: blue;
-                text-shadow: 3px 3 px 5px #aaa;
+                text-shadow: 3px 3px 5px #aaa;
+                transition: 0.3s;
+            }
+            p:active {
+                color: #55d19d;
+                font-weight: bold;
+            }
+            h1:active{
+                color:white;
+                text-align: center;
+                opacity: 30;
+                transform: skew(-20deg, 0);
+            }
+            h1:hover{
+                transition: 3s;
+            }
+            .footer:active{
+                color:white;
+                text-align: right;
+                opacity: 50;
+                transform: skew(-25deg, 0);
+            }
+            .footer:hover{
+                transition: 2s;
+            }
+            .header:active{
+                color:white;
+                text-align: center;
+                opacity: 30;
+                transform: skew(-20deg, 0);
+            }
+            .header:hover{
+                transition: 2s;
+            }
+            p::first-letter{
+                color: rgb(85, 76, 76);
+                font-size: 150%;
+                font-style: italic;
+                font-weight: bold;
+            }
+            p::first-line{
+                color: beige;
             }
         </style>
     </head>
