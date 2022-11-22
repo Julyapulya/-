@@ -66,3 +66,18 @@ function showFoot () {
     document.getElementById('footer').style.backgroundColor=color;
     alert ('васап ма бро!' );
 }
+function showFirst () {
+    document.getElementById('first').style.display='none';
+}
+function showSecond () {
+    document.getElementById('second').style.display='none';
+}
+function showThird () {
+    document.getElementById('third').style.display='none';
+}
+function showForth () {
+    document.getElementById('forth').style.display='none';
+}
+function showFifth () {
+    document.getElementById('fifth').style.display='none';
+}
