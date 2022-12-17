@@ -42,6 +42,9 @@ function makeStairs() {
         const n = i +1
         steps[i].style.left = (30 + 10*i) + 'px';
         steps[i].style.top = (300 + 80*i) + 'px';
-        steps[i].innerHTML = 'Блок номер ' + i;
+        steps[i].innerHTML = 'Блок номер' + i;
     }
+}
+function Load() {
+    makeStairs () ;
 }
