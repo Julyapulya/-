@@ -16,3 +16,16 @@ function clickMe2(button) {
     else
     button.innerHTML = 'Арюна';
 }
+function clickMe3(button) {
+    if(button.innerHTML == 'Нажми меня')
+    button.innerHTML = 'Ещё раз нажми';
+    else
+    if(button.innerHTML == 'Ещё раз нажми')
+    button.innerHTML = 'Ещё';
+    else
+    if(button.innerHTML == 'Ещё')
+    button.innerHTML = 'Начать сначала';
+    else
+    if(button.innerHTML == 'Начать сначала')
+    button.innerHTML = 'Нажми меня';
+}
