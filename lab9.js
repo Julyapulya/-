@@ -5,12 +5,7 @@ function clickMe(button) {
         button.innerHTML = 'Щелчок';
 }
 
-function clickMe2(button) {
-    if(button.innerHTML == 'Алексеева')
-        button.innerHTML = 'Юлия';
-    else
-        button.innerHTML = 'Алексеева';
-}
+
 function clickMe22(button) {
     if(button.innerHTML == 'Шаглаева')
         button.innerHTML = 'Арюна';
